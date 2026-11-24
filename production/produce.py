@@ -204,6 +204,17 @@ def sfx_for(desc):
             out.append(np.zeros(int(SR * 0.07)))
         x = np.concatenate(out * 2)
         return norm(x, 0.3)
+    if "bongo" in d:
+        out = np.zeros(int(SR * 2.2))
+        pattern = [(0, 220), (0.25, 330), (0.5, 220), (0.62, 220), (0.87, 330),
+                   (1.25, 220), (1.5, 330), (1.75, 220), (1.87, 330)]
+        for start, f in pattern:
+            tt = t(0.25)
+            hit = np.sin(2 * np.pi * f * (1 + 0.6 * np.exp(-tt * 40)) * tt) * env(len(tt), 0.001, 0.06)
+            hit += noise(0.25, 0.01) * 0.15
+            st = int(SR * start)
+            out[st: st + len(hit)] += hit
+        return norm(out, 0.5)
     if "recorder" in d:
         # An original, deliberately wobbly and off-key tune. It is NOT the song
         # named in the script; the joke lands without the copyrighted melody.
@@ -229,15 +240,23 @@ CUE_RE = re.compile(r"`?\[(SFX|MUSIC):\s*([^\]]+)\]`?")
 NUMWORDS = {"2": "two", "7": "seven", "6": "six"}
 
 
+# When True (ElevenLabs v3), performance tags like [laughs] and em dashes are
+# kept, because the model acts them out. When False (Kokoro), they're removed.
+KEEP_TAGS = False
+
+
 def clean(text):
     text = re.sub(r"`?\[CLIP(?: ENDS)?\]`?", "", text)
+    if not KEEP_TAGS:
+        text = re.sub(r"\[[a-z][^\]]*\]", "", text)    # [laughs], [sighs] ...
     text = re.sub(r"\*\(([^)]*)\)\*", "", text)          # *(stage direction)*
     text = text.replace("**", "").replace("*", "")
     text = text.replace("£90,000", "ninety thousand pounds").replace("£200", "two hundred pounds")
     text = re.sub(r"(\d)'(\d+)\"", lambda m: f"{NUMWORDS.get(m[1], m[1])} foot {m[2]}", text)
     text = re.sub(r"(\d+)\s?p\.m\.", r"\1 P M", text)
     text = re.sub(r"(\d+):(\d\d)", r"\1 \2", text)
-    text = text.replace("…", "...").replace("—", ", ").replace("–", " to ")
+    text = text.replace("…", "...").replace("–", " to ")
+    text = text.replace("—", "—" if KEEP_TAGS else ", ")
     text = text.replace("U.S.", "U S").replace("Mrs ", "Missus ").replace("St Helena", "Saint Helena")
     text = text.replace("St James's", "Saint James's").replace("St Vitus", "Saint Vitus")
     text = re.sub(r"\s+", " ", text).strip()
@@ -300,8 +319,10 @@ def parse(md):
                 events.append((c[1].lower(), c[2]))
                 pos = c.end()
             seg = clean(rest[pos:])
-            if seg:
+            if seg and not re.fullmatch(r"[.…\s]+", seg):
                 events.append(("line", spk, seg))
+            elif seg:
+                events.append(("pause", 1.2))
             continue
         c = CUE_RE.search(line)
         if c:

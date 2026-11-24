@@ -11,27 +11,11 @@
   "episodes": [
     {
       "number": 1,
-      "file": "audio/ep01-mona-lisa.mp3",
-      "script": "episodes/ep01-mona-lisa.md",
-      "title": "The Mona Lisa Was a Nobody Until a Handyman Stole It",
-      "pub_date": "2026-11-24T10:00:00Z",
-      "summary": "In August 1911 a handyman walked out of the Louvre with the Mona Lisa under his smock, and a plumber held the door for him. Before that day she was a respected painting most people had never seen. Two years of headlines, a jailed poet, a terrified Picasso and crowds queuing to stare at an empty wall turned her into the most famous face on Earth. Plus: the fake-forgery myth, who profited, and how the world got the thief's death wrong."
-    },
-    {
-      "number": 2,
-      "file": "audio/ep02-titanic.mp3",
-      "script": "episodes/ep02-titanic.md",
-      "title": "The Titanic Sank Because of a Group Chat",
-      "pub_date": "2026-11-24T10:01:00Z",
-      "summary": "Forty minutes before the Titanic hit the iceberg, a nearby ship radioed that it was stopped and surrounded by ice. The Titanic's operator told it to shut up: he was busy sending passengers' paid messages. The untold story of the radio room, the two young Marconi operators inside it, the warnings that never reached the bridge, and the 21-year-old who saved 700 lives because he hadn't finished unlacing his boots."
-    },
-    {
-      "number": 3,
-      "file": "audio/ep03-napoleon.mp3",
-      "script": "episodes/ep03-napoleon.md",
-      "title": "Napoleon Was Tall. A British Cartoonist Ruined His Life.",
-      "pub_date": "2026-11-24T10:02:00Z",
-      "summary": "Napoleon was about average height. The tiny, tantrum-throwing emperor everyone pictures was invented by James Gillray, a London caricaturist who never once saw him, and who took a pension from the British government. French inches, giant bodyguards, the 'Napoleon complex', and the day the conqueror of Europe retreated from a swarm of rabbits."
+      "file": "audio/ep01-kesey.mp3",
+      "script": "episodes/ep01-kesey.md",
+      "title": "The CIA Paid for Ken Kesey's First Acid Trip",
+      "pub_date": "2026-12-01T10:00:00Z",
+      "summary": "Around 1959, a broke Stanford writing student got $75 a session to take experimental drugs at a government hospital. Then came One Flew Over the Cuckoo's Nest, a Day-Glo school bus driven by the real Dean Moriarty, the Grateful Dead as a house band, a party where Hunter S. Thompson brought the Hells Angels and turned out to be the responsible adult, and a faked suicide. The Sixties, as funded by the federal government."
     }
   ]
 }

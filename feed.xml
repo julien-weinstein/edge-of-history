@@ -21,53 +21,6 @@
     <itunes:type>episodic</itunes:type>
     <podcast:locked>no</podcast:locked>
     <podcast:guid>529ffe0f-1fad-57a5-937e-4c876cf8b96b</podcast:guid>
-    <item>
-      <title>Napoleon Was Tall. A British Cartoonist Ruined His Life.</title>
-      <itunes:title>Napoleon Was Tall. A British Cartoonist Ruined His Life.</itunes:title>
-      <itunes:episode>3</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-      <description><![CDATA[<p>Napoleon was about average height. The tiny, tantrum-throwing emperor everyone pictures was invented by James Gillray, a London caricaturist who never once saw him, and who took a pension from the British government. French inches, giant bodyguards, the 'Napoleon complex', and the day the conqueror of Europe retreated from a swarm of rabbits.</p><p><b>Chapters</b><br>00:00 Cold Open<br>00:36 Intro<br>02:35 The Brochure Version<br>04:00 Act One: The Corsican<br>07:50 Act Two: Little Boney<br>11:23 Citation Needed: The Rabbits and Josephine<br>13:49 Act Three: The Shrinking Man<br>15:47 Who Profited?<br>17:35 The Footnote<br>18:28 The Bet, Forfeit and Tease</p><p><b>Sources</b></p><ul><li>Andrew Roberts, Napoleon: A Life (2014)</li><li>Richard Godfrey, James Gillray: The Art of Caricature (2001)</li><li>Draper Hill, Mr. Gillray, the Caricaturist (1965)</li><li>John Komlos, "An Anthropometric History of Early-Modern France," European Review of Economic History (2003), on French conscript heights</li><li>Mike Eslea et al., research presented at the British Psychological Society on height and aggression (2007)</li><li>Baron Thiébault, Mémoires, the source of the rabbit-hunt anecdote</li></ul><p>Hosts Nora Vance and Cal Whitlock are fictional characters voiced with AI text-to-speech. The history is real.</p>]]></description>
-      <itunes:summary>Napoleon was about average height. The tiny, tantrum-throwing emperor everyone pictures was invented by James Gillray, a London caricaturist who never once saw him, and who took a pension from the British government. French inches, giant bodyguards, the 'Napoleon complex', and the day the conqueror of Europe retreated from a swarm of rabbits.</itunes:summary>
-      <enclosure url="https://julien-weinstein.github.io/edge-of-history/audio/ep03-napoleon.mp3" length="19028690" type="audio/mpeg"/>
-      <podcast:chapters url="https://julien-weinstein.github.io/edge-of-history/audio/ep03-napoleon.chapters.json" type="application/json+chapters"/>
-      <guid isPermaLink="false">5fb477a6-3e5f-545d-85f1-0b007dbe1ff6</guid>
-      <pubDate>Tue, 24 Nov 2026 10:02:00 +0000</pubDate>
-      <itunes:duration>00:19:44</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://julien-weinstein.github.io/edge-of-history/art/cover.jpg"/>
-    </item>
-    <item>
-      <title>The Titanic Sank Because of a Group Chat</title>
-      <itunes:title>The Titanic Sank Because of a Group Chat</itunes:title>
-      <itunes:episode>2</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-      <description><![CDATA[<p>Forty minutes before the Titanic hit the iceberg, a nearby ship radioed that it was stopped and surrounded by ice. The Titanic's operator told it to shut up: he was busy sending passengers' paid messages. The untold story of the radio room, the two young Marconi operators inside it, the warnings that never reached the bridge, and the 21-year-old who saved 700 lives because he hadn't finished unlacing his boots.</p><p><b>Chapters</b><br>00:00 Cold Open<br>00:20 Intro<br>01:39 The Brochure Version<br>02:56 Act One: The Boys in the Box<br>06:18 Act Two: Six Warnings<br>11:51 Citation Needed: The First SOS<br>14:03 Act Three: The Bootlaces<br>16:15 Who Profited?<br>18:33 The Footnote<br>19:37 The Bet, Forfeit and Tease</p><p><b>Sources</b></p><ul><li>U.S. Senate Inquiry into the Loss of the Titanic (1912), testimony of Harold Bride, Harold Cottam, Cyril Evans and J. Bruce Ismay</li><li>British Wreck Commissioner's Inquiry (1912)</li><li>Walter Lord, A Night to Remember (1955)</li><li>Daniel Allen Butler, The Other Side of the Night (2009), on the Carpathia and the Californian</li><li>Harold Bride, "Thrilling Story by Titanic's Surviving Wireless Man," New York Times, 19 April 1912</li></ul><p>Hosts Nora Vance and Cal Whitlock are fictional characters voiced with AI text-to-speech. The history is real.</p>]]></description>
-      <itunes:summary>Forty minutes before the Titanic hit the iceberg, a nearby ship radioed that it was stopped and surrounded by ice. The Titanic's operator told it to shut up: he was busy sending passengers' paid messages. The untold story of the radio room, the two young Marconi operators inside it, the warnings that never reached the bridge, and the 21-year-old who saved 700 lives because he hadn't finished unlacing his boots.</itunes:summary>
-      <enclosure url="https://julien-weinstein.github.io/edge-of-history/audio/ep02-titanic.mp3" length="20648266" type="audio/mpeg"/>
-      <podcast:chapters url="https://julien-weinstein.github.io/edge-of-history/audio/ep02-titanic.chapters.json" type="application/json+chapters"/>
-      <guid isPermaLink="false">9d47e918-ab1d-57fb-b834-d87b7546ce32</guid>
-      <pubDate>Tue, 24 Nov 2026 10:01:00 +0000</pubDate>
-      <itunes:duration>00:21:25</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://julien-weinstein.github.io/edge-of-history/art/cover.jpg"/>
-    </item>
-    <item>
-      <title>The Mona Lisa Was a Nobody Until a Handyman Stole It</title>
-      <itunes:title>The Mona Lisa Was a Nobody Until a Handyman Stole It</itunes:title>
-      <itunes:episode>1</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-      <description><![CDATA[<p>In August 1911 a handyman walked out of the Louvre with the Mona Lisa under his smock, and a plumber held the door for him. Before that day she was a respected painting most people had never seen. Two years of headlines, a jailed poet, a terrified Picasso and crowds queuing to stare at an empty wall turned her into the most famous face on Earth. Plus: the fake-forgery myth, who profited, and how the world got the thief's death wrong.</p><p><b>Chapters</b><br>00:00 Cold Open<br>00:34 Intro<br>01:45 The Brochure Version<br>03:07 Act One: The Inside Man<br>07:53 Act Two: The Empty Wall<br>12:02 Citation Needed: The Six Fake Mona Lisas<br>13:43 Act Three: The Painting in the Trunk<br>18:04 Who Profited?<br>19:32 The Footnote<br>20:20 The Bet, Forfeit and Tease</p><p><b>Sources</b></p><ul><li>Noah Charney, The Thefts of the Mona Lisa (2011)</li><li>R. A. Scotti, Vanished Smile: The Mysterious Theft of the Mona Lisa (2009)</li><li>Dorothy and Thomas Hoobler, The Crimes of Paris (2009)</li><li>Donald Sassoon, Becoming Mona Lisa: The Making of a Global Icon (2001)</li><li>Karl Decker, "Why and How the Mona Lisa Was Stolen," Saturday Evening Post, 25 June 1932. This is the source of the Valfierno story, which is unsupported.</li></ul><p>Hosts Nora Vance and Cal Whitlock are fictional characters voiced with AI text-to-speech. The history is real.</p>]]></description>
-      <itunes:summary>In August 1911 a handyman walked out of the Louvre with the Mona Lisa under his smock, and a plumber held the door for him. Before that day she was a respected painting most people had never seen. Two years of headlines, a jailed poet, a terrified Picasso and crowds queuing to stare at an empty wall turned her into the most famous face on Earth. Plus: the fake-forgery myth, who profited, and how the world got the thief's death wrong.</itunes:summary>
-      <enclosure url="https://julien-weinstein.github.io/edge-of-history/audio/ep01-mona-lisa.mp3" length="21136455" type="audio/mpeg"/>
-      <podcast:chapters url="https://julien-weinstein.github.io/edge-of-history/audio/ep01-mona-lisa.chapters.json" type="application/json+chapters"/>
-      <guid isPermaLink="false">74cd8331-9f05-58fd-8ada-daa5f8f25b9e</guid>
-      <pubDate>Tue, 24 Nov 2026 10:00:00 +0000</pubDate>
-      <itunes:duration>00:21:55</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://julien-weinstein.github.io/edge-of-history/art/cover.jpg"/>
-    </item>
+
   </channel>
 </rss>
