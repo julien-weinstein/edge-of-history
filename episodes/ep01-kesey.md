@@ -8,27 +8,51 @@
 
 ---
 
-## COLD OPEN: "THE HEADLINE" `[CLIP]`
+## COLD OPEN `[CLIP]`
 
-`[MUSIC: tense, plucked strings]`
+`[MUSIC: theme bed]`
 
-**NORA:** [dramatic, tabloid voice] "GOVERNMENT PAYS GRAD STUDENT TO TAKE LSD. GRAD STUDENT INVENTS THE SIXTIES."
+**NORA:** Okay, wait, are we— is it going?
 
-**CAL:** [chuckles] That's… that's actually not a terrible summary.
+**CAL:** It's been going for like two minutes.
 
-**NORA:** It's a *perfect* summary. Okay, so it's 1959. Menlo Park, California. There's a veterans' hospital, and they're running these drug experiments, and they need volunteers. And they're paying. Seventy-five bucks a session.
+**NORA:** [laughs] Oh, great. So everybody heard the sandwich thing.
 
-**CAL:** Which was a lot of money for a grad student.
+**CAL:** Everybody heard the sandwich thing.
 
-**NORA:** It was a lot of money for anybody! And this big, square-jawed wrestler from Oregon, who is in Stanford's creative writing program, hears about it and goes, [enthusiastic] "Sure. I'll take your mystery drugs."
+**NORA:** Cool. Love that. Okay. [exhales] So, Cal. Quick question for you.
 
-**CAL:** And the funding for that kind of research ran back, at least in part, to the government. Some of it to the CIA.
+**CAL:** Uh-oh.
 
-**NORA:** The CIA was trying to figure out if LSD could be a weapon. [beat] And instead they got Ken Kesey.
+**NORA:** If I told you the federal government paid for the first acid trip of the guy who, like, basically started the sixties…
 
-**CAL:** [deadpan] Which, depending on your politics… is kind of a weapon.
+**CAL:** I'd say… hm. I'd say that's "directionally" true.
 
-**NORA:** [laughs]
+**NORA:** [laughs] "Directionally." Okay, you're gonna do that all episode, I can tell.
+
+**CAL:** I'm gonna do that all episode.
+
+**NORA:** But it's real, right? Like, 1959, there's this VA hospital in Menlo Park, they're doing drug experiments, and they're paying people. Seventy-five bucks a pop.
+
+**CAL:** Which, for a grad student back then? That's a lot of money.
+
+**NORA:** That's a lot of money now! And this big wrestler kid from Oregon, who's in the writing program at Stanford, hears about it and he's just like, [casual] "Yeah, sure, I'll do your mystery drugs."
+
+**CAL:** [chuckles] And that's Ken Kesey.
+
+**NORA:** That's Ken Kesey. The government was trying to figure out if LSD could be, like, a weapon…
+
+**CAL:** Mm-hm.
+
+**NORA:** …and what they got instead was the guy who wrote *Cuckoo's Nest*, bought a psychedelic school bus, and threw a party for the Hells Angels.
+
+**CAL:** [dry] Which, depending on who you ask, is also a weapon.
+
+**NORA:** [cracking up] Okay. Okay. This is *Edge of History*, I'm Nora.
+
+**CAL:** And I'm Cal.
+
+**NORA:** And today we are getting *weird*.
 
 `[MUSIC: theme sting]`
 
@@ -36,39 +60,33 @@
 
 ## INTRO
 
-**NORA:** Hi! Welcome to *Edge of History*. I'm Nora Vance. I was a tabloid reporter for nine years, and I'm here to find out who lied, who got paid, and who got screwed.
+**NORA:** Okay, so, first episode. Which means first bet.
 
-**CAL:** And I'm Cal Whitlock. I taught history for, um, fifteen years, and I'm here to make sure she doesn't get sued.
+**CAL:** [sighs] I knew there was gonna be a bet.
 
-**NORA:** Again.
+**NORA:** There's always gonna be a bet. So, Kesey's bus. The famous one, all painted up. On the front, where a school bus says where it's going, it says "Further."
 
-**CAL:** [sighs] Again.
+**CAL:** Right.
 
-**NORA:** Legally I can't talk about it.
+**NORA:** I bet you it was spelled wrong.
 
-**CAL:** And emotionally?
+**CAL:** [skeptical] Spelled… how, wrong?
 
-**NORA:** Emotionally I *won't*. Okay! This is our first episode, which means it's our first bet.
+**NORA:** Just wrong.
 
-**CAL:** Oh, no. I knew there'd be a bet.
+**CAL:** No. No, it's F-U-R-T-H-E-R, I've seen it in, like, every book.
 
-**NORA:** There's always going to be a bet, Cal. So. Kesey's famous bus, the psychedelic school bus. On the front there's a sign where the destination's supposed to go, and it says "Further." I bet you it was spelled wrong.
+**NORA:** So you're taking the bet.
 
-**CAL:** Wrong how?
+**CAL:** I'm taking the bet. What do I lose?
 
-**NORA:** Just… wrong.
+**NORA:** [mischievous] Loser does an original beat poem. With bongos.
 
-**CAL:** [skeptical] No. No, it's "Further." F-U-R-T-H-E-R. It's in every book. I've seen photos.
+**CAL:** I don't have bongos.
 
-**NORA:** So you'll take the bet.
+**NORA:** [whispers] I have bongos.
 
-**CAL:** I'll take the bet. What's the forfeit?
-
-**NORA:** [mischievously] Loser has to perform an original beat poem. With bongos.
-
-**CAL:** I don't own bongos.
-
-**NORA:** [whispers] *I* own bongos.
+**CAL:** [laughs] Why do you have—okay. Fine. Fine.
 
 ---
 

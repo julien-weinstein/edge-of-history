@@ -37,6 +37,11 @@ VOICES = {
     "chris": "iP95p4xoKVk53GoZ742B",
     "brian": "nPczCjzI2devNBz1zQrb",
     "will": "bIHbv24MWmeRgasZH58o",
+    # Voice Library voices (made from real speakers' recordings)
+    "christina": "X03mvPuTfprif8QBAVeJ",
+    "chelsea": "NHRgOEwqx5WZNClv5sat",
+    "ethan": "7MFUvPHHFEgy9Payxb60",
+    "reuven": "FMlfDDNdx1zsjNPNbnas",
 }
 DEFAULT_CAST = {"NORA": "jessica", "CAL": "eric"}
 
@@ -122,8 +127,30 @@ def room_tone(n):
     return w / (np.max(np.abs(w)) or 1) * 0.0025
 
 
+BED_INTRO = 3.0   # seconds the bed plays alone before the hosts start talking
+BED_LEVEL = 0.07  # bed volume under speech (the theme plays at 0.5 alone)
+
+
+def apply_beds(audio, beds):
+    """Lay the theme quietly under speech: in at full level, then ducked, then faded."""
+    for start, end in beds:
+        a, b = int(start * SR), int(end * SR)
+        loop = produce.theme(long=True)
+        bed = np.tile(loop, (b - a) // len(loop) + 1)[: b - a]
+        env = np.full(b - a, BED_LEVEL)
+        i = int(BED_INTRO * SR)
+        env[: i] = 0.5
+        ramp = int(1.2 * SR)
+        env[i: i + ramp] = np.linspace(0.5, BED_LEVEL, len(env[i: i + ramp]))
+        fade = int(2.0 * SR)
+        env[-fade:] *= np.linspace(1, 0, fade)
+        audio[a:b] += bed * env
+    return audio
+
+
 def render(events, cast):
-    out, chapters, batch = [], [], []
+    out, chapters, batch, beds = [], [], [], []
+    bed_open = None
     pos = lambda: sum(len(x) for x in out) / SR
 
     def flush():
@@ -155,13 +182,21 @@ def render(events, cast):
             out += [np.zeros(int(SR * 0.3)), a]
         elif kind == "sfx":
             out += [np.zeros(int(SR * 0.12)), produce.sfx_for(ev[1]) * 0.6]
+        elif kind == "music" and "bed" in ev[1].lower():
+            bed_open = pos()
+            out.append(np.zeros(int(SR * BED_INTRO)))
         elif kind == "music":
+            if bed_open is not None:  # the next music cue ends the bed, overlapping it slightly
+                beds.append((bed_open, pos() + 1.0)); bed_open = None
             out += [np.zeros(int(SR * 0.25)), produce.sting_for(ev[1]) * 0.5, np.zeros(int(SR * 0.15))]
         elif kind == "pause":
             out.append(np.zeros(int(SR * ev[1])))
     flush()
     out.append(np.zeros(SR))
     audio = np.concatenate(out)
+    if bed_open is not None:
+        beds.append((bed_open, len(audio) / SR))
+    audio = apply_beds(audio, beds)
     return audio + room_tone(len(audio)), chapters
 
 
