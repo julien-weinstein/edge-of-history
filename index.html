@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edge of History</title>
+<meta name="description" content="The famous story is never the whole story. A history comedy podcast with Nora Vance and Cal Whitlock.">
+<link rel="alternate" type="application/rss+xml" title="Edge of History" href="feed.xml">
+<style>
+  :root { --bg:#15110e; --ink:#f3e9d8; --muted:#a89a85; --accent:#e8643a; --card:#211a15; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#f6efe3; --ink:#1d1712; --muted:#6c5f4f; --accent:#c8481f; --card:#ece2d1; } }
+  :root[data-theme="light"] { --bg:#f6efe3; --ink:#1d1712; --muted:#6c5f4f; --accent:#c8481f; --card:#ece2d1; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 Charter, "Bitstream Charter", Georgia, serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 80px; }
+  header { display:flex; gap:28px; align-items:center; flex-wrap:wrap; }
+  header img { width:200px; height:200px; border-radius:10px; }
+  h1 { font:900 44px/1 Inter, system-ui, sans-serif; margin:0 0 10px; letter-spacing:-1px; }
+  .tag { color:var(--muted); font-style:italic; margin:0; }
+  .sub a { color:var(--accent); font:600 14px Inter, system-ui, sans-serif; letter-spacing:.5px; text-transform:uppercase; }
+  p.about { margin:32px 0; }
+  .ep { background:var(--card); border-radius:10px; padding:20px; margin:16px 0; }
+  .ep h2 { font:700 21px/1.25 Inter, system-ui, sans-serif; margin:0 0 6px; }
+  .ep .n { color:var(--accent); font:600 13px Inter, system-ui, sans-serif; text-transform:uppercase; letter-spacing:1px; }
+  .ep p { margin:8px 0 14px; color:var(--muted); }
+  audio { width:100%; }
+  footer { color:var(--muted); font-size:14px; margin-top:40px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="art/cover.jpg" alt="Edge of History cover art">
+    <div>
+      <h1>Edge of History</h1>
+      <p class="tag">The famous story is never the whole story.</p>
+      <p class="sub"><a href="feed.xml">RSS feed</a></p>
+    </div>
+  </header>
+  <p class="about">Nora Vance is a former tabloid reporter who always asks <em>who profited?</em> Cal Whitlock is a former history teacher who always asks <em>what's the source?</em> Together they take the most famous and infamous events in history and tell the side almost nobody has heard.</p>
+
+  <div class="ep"><div class="n">Episode 1</div><h2>The Mona Lisa Was a Nobody Until a Handyman Stole It</h2>
+    <p>A handyman, a plumber who held the door, a jailed poet, a terrified Picasso, and the most famous empty wall in history.</p>
+    <audio controls preload="none" src="audio/ep01-mona-lisa.mp3"></audio></div>
+  <div class="ep"><div class="n">Episode 2</div><h2>The Titanic Sank Because of a Group Chat</h2>
+    <p>The radio room, six ice warnings, and the reply that said "shut up, I am busy."</p>
+    <audio controls preload="none" src="audio/ep02-titanic.mp3"></audio></div>
+  <div class="ep"><div class="n">Episode 3</div><h2>Napoleon Was Tall. A British Cartoonist Ruined His Life.</h2>
+    <p>French inches, giant bodyguards, the cartoonist who never saw him, and the rabbits.</p>
+    <audio controls preload="none" src="audio/ep03-napoleon.mp3"></audio></div>
+
+  <footer>Nora and Cal are fictional hosts voiced with AI text-to-speech. The history is real, and every episode lists its sources.</footer>
+</main>
+</body>
+</html>

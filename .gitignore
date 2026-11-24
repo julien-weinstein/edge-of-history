@@ -1,0 +1,3 @@
+production/models/
+__pycache__/
+*.wav

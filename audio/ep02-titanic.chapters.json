@@ -1,0 +1,45 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Cold Open"
+    },
+    {
+      "startTime": 20.77,
+      "title": "Intro"
+    },
+    {
+      "startTime": 99.19,
+      "title": "The Brochure Version"
+    },
+    {
+      "startTime": 176.72,
+      "title": "Act One: The Boys in the Box"
+    },
+    {
+      "startTime": 378.06,
+      "title": "Act Two: Six Warnings"
+    },
+    {
+      "startTime": 711.22,
+      "title": "Citation Needed: The First SOS"
+    },
+    {
+      "startTime": 843.6,
+      "title": "Act Three: The Bootlaces"
+    },
+    {
+      "startTime": 975.42,
+      "title": "Who Profited?"
+    },
+    {
+      "startTime": 1113.52,
+      "title": "The Footnote"
+    },
+    {
+      "startTime": 1177.7,
+      "title": "The Bet, Forfeit and Tease"
+    }
+  ]
+}

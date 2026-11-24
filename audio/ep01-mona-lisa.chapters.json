@@ -1,0 +1,45 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Cold Open"
+    },
+    {
+      "startTime": 34.28,
+      "title": "Intro"
+    },
+    {
+      "startTime": 105.47,
+      "title": "The Brochure Version"
+    },
+    {
+      "startTime": 187.02,
+      "title": "Act One: The Inside Man"
+    },
+    {
+      "startTime": 473.58,
+      "title": "Act Two: The Empty Wall"
+    },
+    {
+      "startTime": 722.18,
+      "title": "Citation Needed: The Six Fake Mona Lisas"
+    },
+    {
+      "startTime": 823.97,
+      "title": "Act Three: The Painting in the Trunk"
+    },
+    {
+      "startTime": 1084.67,
+      "title": "Who Profited?"
+    },
+    {
+      "startTime": 1172.28,
+      "title": "The Footnote"
+    },
+    {
+      "startTime": 1220.67,
+      "title": "The Bet, Forfeit and Tease"
+    }
+  ]
+}

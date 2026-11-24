@@ -1,0 +1,37 @@
+{
+  "title": "Edge of History",
+  "author": "Edge of History",
+  "owner_name": "Edge of History",
+  "owner_email": "julienw@umich.edu",
+  "base_url": "https://julien-weinstein.github.io/edge-of-history",
+  "language": "en-us",
+  "category": "History",
+  "explicit": false,
+  "description": "The famous story is never the whole story. Nora Vance, a former tabloid reporter who always asks \"who profited?\", and Cal Whitlock, a former history teacher who always asks \"what's the source?\", take the most famous and infamous events in history and tell the side almost nobody has heard. They bicker, they bet (Cal always loses), and then they tell you about the person history forgot. Nora and Cal are fictional hosts voiced with AI text-to-speech; the history is real and every episode lists its sources.",
+  "episodes": [
+    {
+      "number": 1,
+      "file": "audio/ep01-mona-lisa.mp3",
+      "script": "episodes/ep01-mona-lisa.md",
+      "title": "The Mona Lisa Was a Nobody Until a Handyman Stole It",
+      "pub_date": "2026-11-24T10:00:00Z",
+      "summary": "In August 1911 a handyman walked out of the Louvre with the Mona Lisa under his smock, and a plumber held the door for him. Before that day she was a respected painting most people had never seen. Two years of headlines, a jailed poet, a terrified Picasso and crowds queuing to stare at an empty wall turned her into the most famous face on Earth. Plus: the fake-forgery myth, who profited, and how the world got the thief's death wrong."
+    },
+    {
+      "number": 2,
+      "file": "audio/ep02-titanic.mp3",
+      "script": "episodes/ep02-titanic.md",
+      "title": "The Titanic Sank Because of a Group Chat",
+      "pub_date": "2026-11-24T10:01:00Z",
+      "summary": "Forty minutes before the Titanic hit the iceberg, a nearby ship radioed that it was stopped and surrounded by ice. The Titanic's operator told it to shut up: he was busy sending passengers' paid messages. The untold story of the radio room, the two young Marconi operators inside it, the warnings that never reached the bridge, and the 21-year-old who saved 700 lives because he hadn't finished unlacing his boots."
+    },
+    {
+      "number": 3,
+      "file": "audio/ep03-napoleon.mp3",
+      "script": "episodes/ep03-napoleon.md",
+      "title": "Napoleon Was Tall. A British Cartoonist Ruined His Life.",
+      "pub_date": "2026-11-24T10:02:00Z",
+      "summary": "Napoleon was about average height. The tiny, tantrum-throwing emperor everyone pictures was invented by James Gillray, a London caricaturist who never once saw him, and who took a pension from the British government. French inches, giant bodyguards, the 'Napoleon complex', and the day the conqueror of Europe retreated from a swarm of rabbits."
+    }
+  ]
+}

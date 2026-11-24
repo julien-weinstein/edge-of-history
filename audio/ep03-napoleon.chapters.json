@@ -1,0 +1,45 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Cold Open"
+    },
+    {
+      "startTime": 36.52,
+      "title": "Intro"
+    },
+    {
+      "startTime": 155.18,
+      "title": "The Brochure Version"
+    },
+    {
+      "startTime": 240.73,
+      "title": "Act One: The Corsican"
+    },
+    {
+      "startTime": 470.19,
+      "title": "Act Two: Little Boney"
+    },
+    {
+      "startTime": 683.25,
+      "title": "Citation Needed: The Rabbits and Josephine"
+    },
+    {
+      "startTime": 829.99,
+      "title": "Act Three: The Shrinking Man"
+    },
+    {
+      "startTime": 947.45,
+      "title": "Who Profited?"
+    },
+    {
+      "startTime": 1055.61,
+      "title": "The Footnote"
+    },
+    {
+      "startTime": 1108.04,
+      "title": "The Bet, Forfeit and Tease"
+    }
+  ]
+}
