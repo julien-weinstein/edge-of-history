@@ -79,9 +79,22 @@ def cached(kind, payload, fn):
     return decode(f.read_bytes())
 
 
+def speakable(text):
+    """A line that is only a cue, like "[laughs]", needs a sound to hang on."""
+    import re
+    if re.sub(r"\[[^\]]*\]", "", text).strip(" .…—"):
+        return text
+    tag = text.lower()
+    if "laugh" in tag or "howl" in tag:
+        return text + " Ha!"
+    if "sigh" in tag:
+        return text + " Hhh."
+    return text + " Mm."
+
+
 def dialogue(turns, cast):
     """turns: [(speaker, text)] -> audio. One API call for the whole exchange."""
-    inputs = [{"text": t, "voice_id": VOICES[cast[s]]} for s, t in turns]
+    inputs = [{"text": speakable(t), "voice_id": VOICES[cast[s]]} for s, t in turns]
     body = {"inputs": inputs, "model_id": MODEL}
     return cached("dialogue", body, lambda: post("text-to-dialogue?output_format=mp3_44100_128", body))
 
